@@ -1,0 +1,160 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.so
+
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+# =========================
+# Virtual environment
+# =========================
+
+.venv/
+venv/
+env/
+ENV/
+
+
+# =========================
+# Environment variables
+# =========================
+
+.env
+.env.*
+!.env.example
+
+
+# =========================
+# Pytest
+# =========================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+
+# =========================
+# Playwright
+# =========================
+
+playwright-report/
+test-results/
+
+# Authentication state
+auth/storage_state.json
+
+
+# =========================
+# Allure
+# =========================
+
+allure-results/
+allure-report/
+reports/
+
+
+# =========================
+# IDE
+# =========================
+
+.idea/
+.vscode/
+
+*.iml
+
+# VS Code
+.history/
+
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+
+# =========================
+# Jupyter
+# =========================
+
+.ipynb_checkpoints/
+
+
+# =========================
+# mypy
+# =========================
+
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+
+# =========================
+# Ruff
+# =========================
+
+.ruff_cache/
+
+
+# =========================
+# Pyright
+# =========================
+
+.pyright/
+
+
+# =========================
+# Local project files
+# =========================
+
+local/
+tmp/
+temp/
+
+credentials.txt
